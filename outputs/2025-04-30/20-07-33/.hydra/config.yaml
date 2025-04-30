@@ -1,0 +1,14 @@
+files:
+  train: data\train.csv
+  test: D:\ITI\DS Track\MLOPS\Task 1\data\test.csv
+params:
+  max_depth: 5
+  n_jobs: -1
+  n_estimators: 5
+target_col:
+  name: Survived
+train_test_split:
+  test_size: 0.2
+  random_state: 42
+column_transformer:
+  unknown_value: -1
