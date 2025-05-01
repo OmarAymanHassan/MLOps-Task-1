@@ -1,0 +1,6 @@
+[core]
+    remote = dvc_storage
+['remote "dvc_storage"']
+    url = gdrive://1wFFpLn2Y4o1dNvtTsRLnGA7U7L35KOfr
+    gdrive_use_service_account = true
+    gdrive_service_account_json_file_path = D:/ITI/DS Track/MLOPS/Tasks/dvc-project-458508-168098b6c91c.json
