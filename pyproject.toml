@@ -15,7 +15,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
     
 ]
-requires-python = "~=3.11.0"
+requires-python = "~=3.13.1"
 
 
 [tool.ruff]
@@ -29,4 +29,3 @@ extend-select = ["I"]  # Add import sorting
 [tool.ruff.lint.isort]
 known-first-party = ["pckgs"]
 force-sort-within-sections = true
-
